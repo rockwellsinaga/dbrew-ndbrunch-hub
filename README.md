@@ -8,7 +8,7 @@ A responsive full-stack cafe portfolio project rebuilt from a collaborative Revo
 
 - Responsive landing page and product catalog built with semantic HTML, modern CSS, and vanilla JavaScript.
 - Working category filters, persistent local cart, demo-checkout guardrail, mobile navigation, and accessible dialogs.
-- Contact, registration, and login forms integrated with an Express and MySQL API.
+- Contact, registration, and login forms integrated with an Express and parameterized MySQL API.
 - Passwords hashed with Node.js `scrypt`; responses never expose password material.
 - Same-origin static frontend and API, environment-based MySQL/CORS configuration, request-size limits, and predictable HTTP errors.
 - Automated API and portfolio-entry checks using Node's built-in test runner.
@@ -30,7 +30,7 @@ Requirements: Node.js 18+, npm, and either MySQL 8+ or Docker.
 4. Run `npm test`.
 5. Run `npm start`, then open `http://localhost:3000`.
 
-The Sequelize models create missing tables for local demonstration. A production release should replace synchronization with migrations.
+The local startup creates missing demo tables. A production release should replace this bootstrap step with versioned migrations.
 
 ## Architecture
 
@@ -42,7 +42,7 @@ Browser
 Express API
   ├─ validation and HTTP error handling
   ├─ scrypt password hashing
-  └─ Sequelize models
+  └─ parameterized mysql2 queries
           │
         MySQL
 ```

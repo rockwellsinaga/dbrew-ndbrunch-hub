@@ -5,10 +5,7 @@ const path = require("node:path");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const sequelize = require("./config/sequelize");
-const { startSequelize } = require("./utlis/sequelize");
-require("./models/contact-models");
-require("./models/register-models");
+const { startDatabase } = require("./config/database");
 
 const allowedOrigins = (process.env.CORS_ORIGIN || "http://localhost:3000").split(",").map((origin) => origin.trim());
 app.disable("x-powered-by");
@@ -26,7 +23,7 @@ app.use((error, _req, res, _next) => {
 });
 
 const startServer = async () => {
-  await startSequelize(sequelize);
+  await startDatabase();
   return app.listen(PORT, () => console.log(`server running on port ${PORT}`));
 };
 

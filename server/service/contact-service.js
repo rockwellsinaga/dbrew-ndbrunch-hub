@@ -1,20 +1,12 @@
-const Contact = require('../models/contact-models');
-
-const getAllDataContact = async () => {
-    try{
-        return await Contact.findAll();
-    }catch(error){
-        return false;
-    }
-  
-}
+const { pool } = require("../config/database");
 
 const createDataContact = async (name, email, message) => {
-    return Contact.create({name, email: email.toLowerCase(), message});
-} 
+  const normalizedEmail = email.toLowerCase();
+  const [result] = await pool.execute(
+    "INSERT INTO contacts (name, email, message) VALUES (?, ?, ?)",
+    [name, normalizedEmail, message]
+  );
+  return { id: result.insertId, name, email: normalizedEmail };
+};
 
-
-module.exports = {
-    getAllDataContact,
-    createDataContact
-}
+module.exports = { createDataContact };

@@ -13,7 +13,7 @@ router.post("/", async (req, res, next) => {
     const result = await createDataRegister(username.trim(), email.trim(), password);
     return res.status(201).json({ message: "Akun berhasil dibuat.", data: { id: result.id, username: result.username, email: result.email } });
   } catch (error) {
-    if (error.name === "SequelizeUniqueConstraintError") return res.status(409).json({ message: "Username atau email sudah digunakan." });
+    if (error.code === "ER_DUP_ENTRY") return res.status(409).json({ message: "Username atau email sudah digunakan." });
     return next(error);
   }
 });
