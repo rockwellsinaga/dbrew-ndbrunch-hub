@@ -1,0 +1,726 @@
+.contact-us-page,
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.contact-us-page {
+  background: rgba(76, 175, 80, 0.8);
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-147 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 20px;
+  width: 148px;
+  height: 52px;
+  position: absolute;
+  left: 1025px;
+  top: 755px;
+}
+.rectangle-15 {
+  background: rgba(62, 39, 35, 0.5);
+  border-radius: 30px;
+  width: 1358px;
+  height: 151px;
+  position: absolute;
+  left: 41px;
+  top: 30px;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+}
+.text {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: left;
+  font: 800 45px/150% "Montserrat-ExtraBold", sans-serif;
+  position: absolute;
+  left: 244px;
+  top: 62px;
+  width: 373px;
+  height: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text2 {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: left;
+  font: 400 30px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 569px;
+  top: 90px;
+  width: 27px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.account {
+  color: #ffe0b2;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 1117px;
+  top: 91px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.my-cart {
+  color: #ffe0b2;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 1238px;
+  top: 91px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.brewing-up-morning-delights {
+  color: #ffe0b2;
+  text-align: center;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 707px;
+  top: 91px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ellipse-10 {
+  background: rgba(255, 224, 178, 0.7);
+  border-radius: 50%;
+  width: 108px;
+  height: 109.2px;
+  position: absolute;
+  left: 110px;
+  top: 51px;
+}
+.rectangle-14 {
+  border-radius: 19px;
+  width: 120px;
+  height: 118px;
+  position: absolute;
+  left: 103px;
+  top: 50px;
+}
+.have-a-concern-or-facing-any-issues-reach-out-to-us-promptly-for-immediate-solutions {
+  color: rgba(255, 224, 178, 0.85);
+  text-align: center;
+  position: absolute;
+  left: calc(50% - 377px);
+  top: 259px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.have-a-concern-or-facing-any-issues-reach-out-to-us-promptly-for-immediate-solutions-span {
+  color: rgba(255, 224, 178, 0.85);
+  font: 800 italic 35px/150% "Montserrat-ExtraBoldItalic", sans-serif;
+}
+.have-a-concern-or-facing-any-issues-reach-out-to-us-promptly-for-immediate-solutions-span2 {
+  color: rgba(255, 224, 178, 0.85);
+  font: 500 italic 30px/150% "Montserrat-MediumItalic", sans-serif;
+}
+.have-a-concern-or-facing-any-issues-reach-out-to-us-promptly-for-immediate-solutions-span3 {
+  color: rgba(255, 224, 178, 0.85);
+  font: 800 italic 30px/150% "Montserrat-ExtraBoldItalic", sans-serif;
+}
+.rectangle-82 {
+  width: 1440px;
+  height: 162px;
+  position: absolute;
+  left: 0px;
+  top: 857px;
+  filter: blur(10px);
+}
+.home {
+  color: #ffe0b2;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 466px;
+  top: 199px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-us {
+  color: #ffe0b2;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 553px;
+  top: 199px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.our-products {
+  color: #ffe0b2;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 670px;
+  top: 199px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact {
+  color: #ffe0b2;
+  text-align: left;
+  font: 700 20px/150% "Montserrat-Bold", sans-serif;
+  position: absolute;
+  left: 828px;
+  top: 199px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cart {
+  color: #ffe0b2;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 933px;
+  top: 199px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.name {
+  color: #3e2723;
+  text-align: center;
+  font: 300 25px/150% "Montserrat-Light", sans-serif;
+  position: absolute;
+  left: 298px;
+  top: 373px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email {
+  color: #3e2723;
+  text-align: center;
+  font: 300 25px/150% "Montserrat-Light", sans-serif;
+  position: absolute;
+  left: 298px;
+  top: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.confirm {
+  background: transparent;
+  border: 0;
+  color: #3e2723;
+  text-decoration: none;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 1047px;
+  cursor: pointer;
+  top: 762px;
+  display: flex;
+  align-items: block;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.send-us-your-messages {
+  color: #3e2723;
+  text-align: center;
+  font: 300 25px/150% "Montserrat-Light", sans-serif;
+  position: absolute;
+  left: 298px;
+  top: 567px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-144 {
+  background: rgba(255, 224, 178, 0.5);
+  border-radius: 20px;
+  width: 875px;
+  height: 51px;
+  position: absolute;
+  left: 283px;
+  top: 415px;
+}
+.rectangle-145 {
+  background: rgba(255, 224, 178, 0.5);
+  border-radius: 20px;
+  width: 875px;
+  height: 51px;
+  position: absolute;
+  left: 283px;
+  top: 512px;
+}
+.rectangle-146 {
+  background: rgba(255, 224, 178, 0.5);
+  border-radius: 20px;
+  width: 875px;
+  height: 119px;
+  position: absolute;
+  left: 283px;
+  top: 609px;
+}
+
+.rectangle-144 input,
+.rectangle-145 input,
+.rectangle-146 input {
+  width: calc(100% - 20px);
+  height: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  background: transparent;
+}
+/* CSS ACCOUNT */
+.account-user-page,
+.contact-user-page * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.account-user-page {
+  background: rgba(76, 175, 80, 0.8);
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-82 {
+  width: 1440px;
+  height: 162px;
+  position: absolute;
+  left: 0px;
+  top: 857px;
+  filter: blur(10px);
+}
+.ellipse-19 {
+  background: rgba(255, 224, 178, 0.8);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 645px;
+  top: 85px;
+}
+.ellipse-20 {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 645px;
+  top: 85px;
+}
+.rectangle-107 {
+  background: rgba(255, 224, 178, 0.8);
+  border-radius: 15px;
+  width: 635px;
+  height: 343px;
+  position: absolute;
+  left: 402px;
+  top: 280px;
+}
+.rectangle-108 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 15px;
+  width: 550px;
+  height: 65px;
+  position: absolute;
+  left: 445px;
+  top: 366px;
+}
+.rectangle-109 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 15px;
+  width: 550px;
+  height: 65px;
+  position: absolute;
+  left: 445px;
+  top: 509px;
+}
+.username {
+  color: #000000;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 440px;
+  top: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.password {
+  color: #000000;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 444px;
+  top: 457px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-110 {
+  background: rgba(255, 224, 178, 0.8);
+  border-radius: 10px;
+  width: 633px;
+  height: 56px;
+  position: absolute;
+  left: 403px;
+  top: 728px;
+}
+.or {
+  color: #000000;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 706px;
+  top: 737px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-111 {
+  background: #3e2723;
+  border-radius: 6px;
+  width: 630px;
+  height: 61px;
+  position: absolute;
+  left: 405px;
+  top: 821px;
+}
+.rectangle-112 {
+  background: #4caf50;
+  border-radius: 6px;
+  width: 630px;
+  height: 61px;
+  position: absolute;
+  left: 405px;
+  top: 645px;
+}
+.sign-in {
+  color: #3e2723;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 676px;
+  top: 654px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 670px;
+  top: 835px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-115 {
+  background: rgba(255, 224, 178, 0.5);
+  border-radius: 12px;
+  width: 77px;
+  height: 76px;
+  position: absolute;
+  left: 1264px;
+  top: 85px;
+}
+.rectangle-114 {
+  width: 69px;
+  height: 65px;
+  position: absolute;
+  left: 1269px;
+  top: 90px;
+}
+.rectangle-108 input,
+.rectangle-109 input {
+  width: calc(100% - 20px);
+  height: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  background: transparent;
+}
+.rectangle-108 input,
+.rectangle-109 input {
+  width: calc(100% - 20px);
+  height: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  background: transparent;
+}
+.sign-in {
+  color: #3e2723;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in {
+  left: 50%;
+  top: 650px;
+  background-color: #4caf50;
+  transform: translateX(-50%);
+  border-radius: 6px;
+  width: 630px;
+  height: 56px;
+  position: absolute;
+}
+
+.sign-up {
+  left: 50%;
+  top: 835px;
+  background-color: #3e2723;
+  transform: translateX(-50%);
+  border-radius: 6px;
+  width: 630px;
+  height: 35px;
+  position: absolute;
+}
+/* CSS SIGNUP */
+.sign-up-page,
+.sign-up-page * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.sign-up-page {
+  background: rgba(76, 175, 80, 0.8);
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-82 {
+  width: 1440px;
+  height: 162px;
+  position: absolute;
+  left: 0px;
+  top: 857px;
+  filter: blur(10px);
+}
+.ellipse-19 {
+  background: rgba(255, 224, 178, 0.8);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 622px;
+  top: 85px;
+}
+.ellipse-20 {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 622px;
+  top: 85px;
+}
+.rectangle-115 {
+  background: rgba(255, 224, 178, 0.5);
+  border-radius: 12px;
+  width: 77px;
+  height: 76px;
+  position: absolute;
+  left: 1264px;
+  top: 85px;
+}
+.rectangle-114 {
+  width: 69px;
+  height: 65px;
+  position: absolute;
+  left: 1269px;
+  top: 90px;
+}
+.rectangle-116 {
+  background: rgba(255, 224, 178, 0.8);
+  border-radius: 15px;
+  width: 638px;
+  height: 436px;
+  position: absolute;
+  left: 378px;
+  top: 270px;
+}
+.rectangle-117 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 15px;
+  width: 553px;
+  height: 65px;
+  position: absolute;
+  left: 416px;
+  top: 346px;
+}
+.rectangle-118 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 15px;
+  width: 553px;
+  height: 65px;
+  position: absolute;
+  left: 416px;
+  top: 481px;
+}
+.username2 {
+  color: #000000;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 416px;
+  top: 292px;
+  width: 134px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email2 {
+  color: #000000;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 416px;
+  top: 427px;
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-119 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 15px;
+  width: 553px;
+  height: 65px;
+  position: absolute;
+  left: 416px;
+  top: 616px;
+}
+.password2 {
+  color: #000000;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 416px;
+  top: 562px;
+  width: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-120 {
+  background: #3e2723;
+  border-radius: 6px;
+  width: 633px;
+  height: 61px;
+  position: absolute;
+  left: 381px;
+  top: 733px;
+}
+.sign-up2 {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 646px;
+  top: 747px;
+  width: 103px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-121 {
+  background: #4caf50;
+  border-radius: 6px;
+  width: 633px;
+  height: 61px;
+  position: absolute;
+  left: 381px;
+  top: 820px;
+}
+.already-have-account {
+  color: #3e2723;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 560px;
+  top: 830px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle-117 input,
+.rectangle-118 input,
+.rectangle-119 input {
+  background: #4caf50;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+}
+
+.sign-up2 {
+  background: #3e2723;
+  border-radius: 6px;
+  width: 633px;
+  height: 61px;
+  position: absolute;
+  left: 381px;
+  top: 733px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-up2:hover {
+  background: #5d4037;
+}
